@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/progress_layout"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:background="@android:color/black"
+        android:weightSum="2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.9">
+
+</LinearLayout>
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@android:color/holo_purple">
+        </ProgressBar>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fetching Weather"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textAlignment="center">
+        </TextView>
+
+
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        tools:context=".MainActivity"
+        android:id="@+id/main_layout"
+        android:visibility="invisible">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/summaryCard1"
+            android:layout_width="400dp"
+            android:layout_height="160dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#333333"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1">
+
+            <RelativeLayout
+                android:id="@+id/summaryCard1Rel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/currentLocation"
+                    android:layout_width="370dp"
+                    android:layout_height="32dp"
+                    android:layout_below="@+id/currentSummary"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="19dp"
+                    android:gravity="center"
+                    android:text="waiting..."
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp"
+                    app:layout_constraintHorizontal_bias="0.042"
+                    app:layout_constraintVertical_bias="0.433" />
+
+                <TextView
+                    android:id="@+id/currentTemperature"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="147dp"
+                    android:layout_marginLeft="147dp"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginEnd="124dp"
+                    android:layout_marginRight="124dp"
+                    android:gravity="center"
+                    android:text="waiting..."
+                    android:textColor="@android:color/white"
+                    android:textSize="32dp"
+                    app:layout_constraintHorizontal_bias="0.681"
+                    app:layout_constraintVertical_bias="0.393" />
+
+                <TextView
+                    android:id="@+id/currentSummary"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/currentTemperature"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="148dp"
+                    android:layout_marginLeft="148dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="58dp"
+                    android:layout_marginRight="58dp"
+                    android:text="waiting..."
+                    android:textColor="@android:color/white"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <ImageView
+                    android:id="@+id/currentIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="110dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginEnd="260dp"
+                    android:layout_marginRight="260dp"
+                    android:layout_marginBottom="52dp"
+                    app:srcCompat="@drawable/ic_weather_sunny" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="13dp"
+                    app:srcCompat="@drawable/ic_information_outline" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/summaryCard2"
+            android:layout_width="400dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            app:cardBackgroundColor="#333333"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/summaryCard1"
+            app:layout_constraintVertical_bias="0.02">
+
+            <RelativeLayout
+                android:id="@+id/summaryCard2Rel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/currentPressure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="303dp"
+                    android:layout_marginLeft="303dp"
+                    android:layout_marginTop="71dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginBottom="34dp"
+                    android:gravity="center"
+                    android:text="waiting..."
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/currentHumidity"
+                    android:layout_width="102dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="69dp"
+                    android:layout_marginEnd="298dp"
+                    android:layout_marginRight="298dp"
+                    android:layout_marginBottom="33dp"
+                    android:gravity="center"
+                    android:text="waiting..."
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/currentWindSpeed"
+                    android:layout_width="114dp"
+                    android:layout_height="29dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="102dp"
+                    android:layout_marginLeft="102dp"
+                    android:layout_marginTop="68dp"
+                    android:layout_marginEnd="185dp"
+                    android:layout_marginRight="185dp"
+                    android:layout_marginBottom="33dp"
+                    android:gravity="center"
+                    android:text="waiting..."
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/currentVisibility"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="216dp"
+                    android:layout_marginLeft="216dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginEnd="98dp"
+                    android:layout_marginRight="98dp"
+                    android:layout_marginBottom="35dp"
+                    android:gravity="center"
+                    android:text="waiting..."
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/humidityTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="78dp"
+                    android:layout_marginEnd="317dp"
+                    android:layout_marginRight="317dp"
+                    android:layout_marginBottom="3dp"
+                    android:gravity="center"
+                    android:text="Humidity"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/windSpeedTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="122dp"
+                    android:layout_marginTop="78dp"
+                    android:layout_marginEnd="203dp"
+                    android:layout_marginRight="203dp"
+                    android:layout_marginBottom="3dp"
+                    android:gravity="center"
+                    android:text="Wind Speed"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/visibilityTxt"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="230dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginEnd="105dp"
+                    android:layout_marginRight="105dp"
+                    android:layout_marginBottom="2dp"
+                    android:gravity="center"
+                    android:text="Visibility"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/pressureTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="315dp"
+                    android:layout_marginLeft="315dp"
+                    android:layout_marginTop="91dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="11dp"
+                    android:gravity="center"
+                    android:text="Pressure"
+                    android:textColor="@android:color/white" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="58dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="318dp"
+                    android:layout_marginRight="318dp"
+                    android:layout_marginBottom="42dp"
+                    app:srcCompat="@drawable/ic_water_percent" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="211dp"
+                    android:layout_marginRight="211dp"
+                    android:layout_marginBottom="44dp"
+                    app:srcCompat="@drawable/ic_weather_windy" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="53dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="238dp"
+                    android:layout_marginLeft="238dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="109dp"
+                    android:layout_marginRight="109dp"
+                    android:layout_marginBottom="40dp"
+                    app:srcCompat="@drawable/ic_eye_outline" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="51dp"
+                    android:layout_height="57dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="320dp"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="29dp"
+                    android:layout_marginRight="29dp"
+                    android:layout_marginBottom="42dp"
+                    app:srcCompat="@drawable/ic_gauge" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <ScrollView
+            android:id="@+id/size"
+            android:layout_width="wrap_content"
+            android:layout_height="367dp"
+            android:layout_below="@+id/summaryCard2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="59dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_red_border"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.357"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/summaryCard2"
+            app:layout_constraintVertical_bias="0.95">
+
+            <LinearLayout
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:scrollbarSize="4dp">
+
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_background">
+
+                    <!-- Some stuff goes here -->
+                    />
+
+                    <TextView
+                        android:id="@+id/weeklyDate1"
+                        android:layout_width="140dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <ImageView
+                        android:id="@+id/weeklyIcon1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_weather_sunny"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"></ImageView>
+
+                    <TextView
+                        android:id="@+id/weeklyLow1"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/weeklyHigh1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_background">
+
+                    <!-- Some stuff goes here -->
+
+                    />
+
+                    <TextView
+                        android:id="@+id/weeklyDate2"
+                        android:layout_width="140dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <ImageView
+                        android:id="@+id/weeklyIcon2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_weather_sunny"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"></ImageView>
+
+                    <TextView
+                        android:id="@+id/weeklyLow2"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/weeklyHigh2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_background">
+
+                    <!-- Some stuff goes here -->
+
+                    />
+
+                    <TextView
+                        android:id="@+id/weeklyDate3"
+                        android:layout_width="140dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <ImageView
+                        android:id="@+id/weeklyIcon3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_weather_sunny"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"></ImageView>
+
+                    <TextView
+                        android:id="@+id/weeklyLow3"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/weeklyHigh3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_background">
+
+                    <!-- Some stuff goes here -->
+
+                    />
+
+                    <TextView
+                        android:id="@+id/weeklyDate4"
+                        android:layout_width="140dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <ImageView
+                        android:id="@+id/weeklyIcon4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_weather_sunny"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"></ImageView>
+
+                    <TextView
+                        android:id="@+id/weeklyLow4"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/weeklyHigh4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_background">
+
+                    <!-- Some stuff goes here -->
+
+                    />
+
+                    <TextView
+                        android:id="@+id/weeklyDate5"
+                        android:layout_width="140dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <ImageView
+                        android:id="@+id/weeklyIcon5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_weather_sunny"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"></ImageView>
+
+                    <TextView
+                        android:id="@+id/weeklyLow5"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/weeklyHigh5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_background">
+
+                    <!-- Some stuff goes here -->
+
+                    />
+
+                    <TextView
+                        android:id="@+id/weeklyDate6"
+                        android:layout_width="140dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <ImageView
+                        android:id="@+id/weeklyIcon6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_weather_sunny"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"></ImageView>
+
+                    <TextView
+                        android:id="@+id/weeklyLow6"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/weeklyHigh6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_background">
+
+                    <!-- Some stuff goes here -->
+
+                    />
+
+                    <TextView
+                        android:id="@+id/weeklyDate7"
+                        android:layout_width="140dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <ImageView
+                        android:id="@+id/weeklyIcon7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_weather_sunny"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"></ImageView>
+
+                    <TextView
+                        android:id="@+id/weeklyLow7"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/weeklyHigh7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_background"
+                    android:textColor="@android:color/white">
+
+                    <!-- Some stuff goes here -->
+
+                    />
+
+                    <TextView
+                        android:id="@+id/weeklyDate8"
+                        android:layout_width="140dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <ImageView
+                        android:id="@+id/weeklyIcon8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_weather_sunny"
+                        android:minHeight="48dp"
+                        android:minWidth="48dp"></ImageView>
+
+                    <TextView
+                        android:id="@+id/weeklyLow8"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:id="@+id/weeklyHigh8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Waiting..."
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <!--    <ImageView-->
+        <!--        android:id="@+id/searchIcon"-->
+        <!--        android:layout_width="44dp"-->
+        <!--        android:layout_height="46dp"-->
+        <!--        android:layout_alignParentTop="true"-->
+        <!--        android:layout_alignParentEnd="true"-->
+        <!--        android:layout_alignParentRight="true"-->
+        <!--        android:layout_marginTop="2dp"-->
+        <!--        android:layout_marginEnd="14dp"-->
+        <!--        android:layout_marginRight="14dp"-->
+        <!--        app:layout_constraintBottom_toTopOf="@+id/summaryCard1"-->
+        <!--        app:layout_constraintEnd_toEndOf="parent"-->
+        <!--        app:layout_constraintHorizontal_bias="0.957"-->
+        <!--        app:layout_constraintStart_toStartOf="parent"-->
+        <!--        app:layout_constraintTop_toTopOf="parent"-->
+        <!--        app:layout_constraintVertical_bias="0.0"-->
+        <!--        app:srcCompat="@drawable/ic_map_search_outline" />-->
+
+        <!--    <ListView-->
+        <!--        android:id="@+id/search_city"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_alignParentTop="true"-->
+        <!--        android:layout_marginTop="241dp"-->
+        <!--        android:background="@android:color/white"-->
+        <!--        android:padding="20dp" />-->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fav_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="18dp"
+            android:src="@drawable/ic_map_marker_minus"
+            app:backgroundTint="#7657ad"
+            android:theme="@style/AppTheme">
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+    </RelativeLayout>
+    <!--<RelativeLayout-->
+    <!--    android:layout_width="fill_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:orientation="horizontal">-->
+
+    <!--    <SearchView-->
+    <!--        android:id="@+id/search"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#333333"-->
+    <!--        android:clickable="true"></SearchView>-->
+
+    <!--    <ListView-->
+    <!--        android:layout_width="fill_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/listView"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_below="@id/search"/>-->
+
+    <!--</RelativeLayout>-->
+
+    <!--    <include layout="@layout/toolbar_layout"/>-->
+
+    <!--    <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--        xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#0000ff"-->
+    <!--        android:minHeight="?attr/actionBarSize"-->
+    <!--        android:id="@+id/toolbar">-->
+
+    <!--        <SearchView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content">-->
+    <!--        </SearchView>-->
+
+    <!--        <ListView-->
+    <!--            android:id="@+id/listView"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent">-->
+    <!--        </ListView>-->
+
+
+    <!--    </androidx.appcompat.widget.Toolbar>-->
+
+
+
+
+</RelativeLayout>
+

@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_2" />
+        <device id="pixel_3_xl" />
+        <device id="pixel" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb644111-650d-43b4-b8b4-90d6dcd90fd2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/volley/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/volley/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/volley/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/volley/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/bintray.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/volley/bintray.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/volley/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/consumer-proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/volley/consumer-proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/volley/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/volley/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/volley/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/volley/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/rules.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/volley/rules.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/AuthFailureError.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/AuthFailureError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Cache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/CacheDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/CacheDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ClientError.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ClientError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/DefaultRetryPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/DefaultRetryPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ExecutorDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ExecutorDelivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NetworkDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NetworkDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NetworkError.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NetworkError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NetworkResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NetworkResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NoConnectionError.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/NoConnectionError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ParseError.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ParseError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/RequestQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/RequestQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ResponseDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ResponseDelivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/RetryPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/RetryPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ServerError.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/ServerError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/TimeoutError.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/TimeoutError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/VolleyError.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/VolleyError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/VolleyLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/VolleyLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/AdaptedHttpStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/AdaptedHttpStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/AndroidAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/AndroidAuthenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/Authenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/Authenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/BaseHttpStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/BaseHttpStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/BasicNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/BasicNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ByteArrayPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ByteArrayPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ClearCacheRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ClearCacheRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/DiskBasedCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/DiskBasedCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpClientStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpClientStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpHeaderParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpHeaderParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HttpStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HurlStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/HurlStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ImageLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ImageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/ImageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/JsonArrayRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/JsonArrayRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/JsonObjectRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/JsonObjectRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/JsonRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/JsonRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/NetworkImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/NetworkImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/NoCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/NoCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/PoolingByteArrayOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/PoolingByteArrayOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/RequestFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/RequestFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/StringRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/StringRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/Threads.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/Threads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/Volley.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/main/java/com/android/volley/toolbox/Volley.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/CacheDispatcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/CacheDispatcherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/NetworkDispatcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/NetworkDispatcherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/NetworkResponseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/NetworkResponseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/RequestQueueIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/RequestQueueIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/RequestQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/RequestQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/RequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/RequestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/ResponseDeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/ResponseDeliveryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockHttpStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockHttpStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/MockRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/ShadowSystemClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/ShadowSystemClock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/TestRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/mock/TestRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/AdaptedHttpStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/AdaptedHttpStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/AndroidAuthenticatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/AndroidAuthenticatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/BaseHttpStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/BaseHttpStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/BasicNetworkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/BasicNetworkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ByteArrayPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ByteArrayPoolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/CacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/CacheTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/DiskBasedCacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/DiskBasedCacheTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HttpClientStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HttpClientStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HttpHeaderParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HttpHeaderParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HttpStackConformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HttpStackConformanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HurlStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/HurlStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ImageLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ImageLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ImageRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ImageRequestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/JsonRequestCharsetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/JsonRequestCharsetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/JsonRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/JsonRequestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/NetworkImageViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/NetworkImageViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/PoolingByteArrayOutputStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/PoolingByteArrayOutputStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/RequestFutureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/RequestFutureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/RequestQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/RequestQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/RequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/RequestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ResponseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/ResponseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/StringRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/toolbox/StringRequestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/utils/CacheTestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/utils/CacheTestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/utils/ImmediateResponseDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/java/com/android/volley/utils/ImmediateResponseDelivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/volley/src/test/resources/org.robolectric.Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/volley/src/test/resources/org.robolectric.Config.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_XL_API_29" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WeatherApp" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="626" lean-forward="true" selection-start-line="626" selection-end-line="626" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/fragments/Main_frag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2655">
+              <caret line="216" selection-start-line="216" selection-end-line="216" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/Splash.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/SearchableActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3180">
+              <caret line="252" selection-start-line="252" selection-end-line="252" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/DetailActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/fragments/Favorite_frag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2280">
+              <caret line="180" column="104" selection-start-line="180" selection-start-column="44" selection-end-line="180" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1395">
+              <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main_typical.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ONCLIC</find>
+      <find>except</find>
+      <find>AUTO_COM</find>
+      <find>backgr</find>
+      <find>main_lay</find>
+      <find>autocomplete</find>
+      <find>imageB</find>
+      <find>relativeLa</find>
+      <find>progress</find>
+      <find>threshold</find>
+      <find>permissionresult</find>
+      <find>fragment</find>
+      <find>to_fra</find>
+      <find>.getlocalit</find>
+      <find>locationsummary</find>
+      <find>locationsu</find>
+      <find>extra</find>
+      <find>to_fragment</find>
+      <find>currentSummary</find>
+      <find>locationSummary</find>
+      <find>onquerysu</find>
+      <find>locationsummaZ</find>
+      <find>putextra</find>
+      <find>cardview</find>
+      <find>showsummary</find>
+      <find>currentlocation.set</find>
+      <find>oncreate</find>
+      <find>humidity</find>
+      <find>requestweather</find>
+      <find>cityname</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/app/src/main/res/menu</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/volley" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/tab_colo_selector.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_calendar_today.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_trending_up.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_google_photos.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/ui/main/SectionsPagerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_twitter.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/detail_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_weather_fog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/Today_frag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/searchable_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_today_frag.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/Weekly_frag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/ExampleItem.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/ExampleAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_photos_frag.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/example_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/Photos_frag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/auto_compete_lv.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/SuggestionAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/kNoFilter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/fragments/current_fragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/fragments/Main_curr_loc_frag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/fragments/favorite_frag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/ui/main/SlidePageAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/tac_indicator_default.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/tab_selector.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/tab_indicator_selected.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_weekly_frag.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/circle.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/progress.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_typical.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_fragment_launch.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_searchable.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/Splash.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/DetailActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/tab_indicator_default.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_weatherapp_launcher.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_weatherapp_launcher_foreground.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/fragments/Favorite_frag.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/SearchableActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/fragments/Main_frag.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="24" />
+    <option name="y" value="39" />
+    <option name="width" value="1393" />
+    <option name="height" value="757" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WeatherApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeatherApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeatherApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeatherApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WeatherApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="WeatherApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="WeatherApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="weatherapp" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeatherApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="weatherapp" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="WeatherApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/CS571/HW9/WeatherApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="WeatherApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/CS571/HW9/WeatherApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="WeatherApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/CS571/HW9/WeatherApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3_XL_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-12-17T22:24:07.137Z" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.example.weatherapp" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="com.example.weatherapp.SearchableActivity" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/menu" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb644111-650d-43b4-b8b4-90d6dcd90fd2" name="Default Changelist" comment="" />
+      <created>1574649993827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574649993827</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="24" y="39" width="1393" height="757" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" sideWeight="0.50224215" side_tool="true" weight="0.24056254" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49775785" visible="true" weight="0.24056254" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.4981495" visible="true" weight="0.32932332" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49592894" weight="0.32932332" />
+      <window_info anchor="bottom" id="Logcat" order="2" sideWeight="0.62916356" weight="0.36541355" />
+      <window_info anchor="bottom" id="TODO" order="3" weight="0.32932332" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32932332" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32932332" />
+      <window_info anchor="bottom" id="Debug" order="7" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32932332" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3708364" side_tool="true" weight="0.36541355" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" weight="0.32938564" />
+      <window_info anchor="right" id="Flutter Outline" order="4" weight="0.32938564" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32938564" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Preview" order="7" weight="0.30940044" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/b9ebb04df2cb0cad4419af3c658690bc82aa5706/fragment-1.1.0-sources.jar!/androidx/fragment/app/FragmentManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="2848" column="22" selection-start-line="2848" selection-start-column="21" selection-end-line="2848" selection-end-column="22" />
+          <folding>
+            <element signature="e#115048#115080#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/ui/main/SectionsPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/ui/main/PageViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/tac_indicator_default.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/ui/main/SlidePageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" selection-start-line="13" selection-start-column="4" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/fragments/Weekly_frag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_weekly_frag.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/circle.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/progress.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_fragment_launch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_today_frag.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="e#1777#1817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_weather_partly_snowy_rainy_dark.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_searchable.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="90" column="37" lean-forward="true" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_weatherapp_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_weatherapp_launcher_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_weatherapp_launcher_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_weatherapp_launcher_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_weatherapp_launcher_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_weatherapp_launcher_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_weatherapp_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_weatherapp_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_weatherapp_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_weatherapp_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_weather_sunny.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/table_row_background.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/tab_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/tab_indicator_selected.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/tab_indicator_default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_calendar_today.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_weather_partly_snowy_rainy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_weatherapp_launcher_foreground.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_weatherapp_launcher.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_weatherapp_launcher_round.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="626" lean-forward="true" selection-start-line="626" selection-end-line="626" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/fragments/Main_frag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="216" selection-start-line="216" selection-end-line="216" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/Splash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/SearchableActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3180">
+          <caret line="252" selection-start-line="252" selection-end-line="252" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/DetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/weatherapp/fragments/Favorite_frag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="180" column="104" selection-start-line="180" selection-start-column="44" selection-end-line="180" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main_typical.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
